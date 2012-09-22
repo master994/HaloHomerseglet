@@ -64,10 +64,7 @@ for( i = 0; i < napokSzama; i++){
 		i = j;
 	}
 }
-if( kezdoNap != 0 && vegsoNap != 0)
         printf( "Legmelegebb korlatnal magasabb idoszak: %d. - %d. nap",kezdoNap+1,vegsoNap);
-else
-    printf("Nincs korlat feletti homerseglet.");
 return 0;
 
 }
